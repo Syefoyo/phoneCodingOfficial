@@ -1,0 +1,20 @@
+h1 {
+    display: block;
+    text-align: center;
+    color: white;
+    border: solid 10px teal;
+    background-color: teal;
+    border-radius: 35px;
+}
+body {
+    background-color: lightblue;
+}
+h3 {
+    display: block;
+}
+.width {
+    width: 350px;
+}
+.width1 {
+    width: 350px;
+}

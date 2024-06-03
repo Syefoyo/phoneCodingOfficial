@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css"/>
+        </script>
+    </head>
+    <body>
+        <h1 id="change" onclick="changeOk()">Click me</h1>
+        <h3>First Expression Its Kinda cool to Code in A "Single Phone" Btw This Code editor is used by TrebEdit in Mobile.</h3>
+<hr>
+<a href="https://play.google.com/store/apps/details?id=com.teejay.trebedit">
+<h3 onclick="tredEdit()">Download TrebEdit Click Me!</h3>
+</a>
+<hr>
+<h3>How to get Input Name (Optional)</h3>
+<input id="myinput"> <button onclick="myInput()">Submit</button>
+<p id="mytext"></p>
+<br>
+<h3>HTML =</h3>
+ <img class="width" src="Screenshot_20240603-094509_TrebEdit.jpg">
+ <h3>(id is optional)</h3>
+<h3>JavaScript (JS) =</h3>
+<img class="width1" src="Screenshot_20240603-094942_TrebEdit.jpg">
+<hr>
+<script>
+    function changeOk() {
+    document.getElementById("change").innerHTML = 
+  "First Time Coding in Phone";
+}
+function myInput() {
+    const name = document.getElementById("mytext");
+    const username = document.getElementById("myinput").value;
+ name.innerHTML = "Welcome" + " " + username;
+}
+</script>
+ </body>
+</html>
